@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,500;1,300&family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Josefin+Slab:ital,wght@0,400;0,500;1,300&family=Lora:wght@500&display=swap');
+
+* {
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+/* .bg-light {
+   
+    background-color: rgb(49, 49, 46) !important;
+    opacity: 0.5;
+    height: 120px;
+    border-bottom: #C0B6B6 solid;
+    position: fixed;
+}
+
+
+.navbar-nav>li {
+    padding: 0 10px;
+    border-right: 1px #C0B6B6 solid;
+}
+
+.navbar-nav>li:last-child {
+    border: none;
+}
+
+.navbar-nav a::before,
+.navbar-nav a::after {
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+
+#link-active {
+    color: aquamarine;
+    opacity: 0.7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #C0B6B6;
+    font-size: 16px;
+}
+
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 1px solid aquamarine;
+    transition: .1s;
+    color: aquamarine;
+
+}
+
+.navbar-toggler {
+    padding: 1px 3px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #ffff;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        flex: 2;
+    }
+} */
+
+.container-2 {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 350px;
+}
+
+hr {
+    color: #C0B6B6;
+    width: 800px;
+}
+
+.logo-img {
+    width: 10px;
+    height: 10px;
+    margin-left: 550px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 64px;
+    /* padding-top: 80px; */
+}
+
+footer {
+    background-color: transparent;
+    color: #a7a7a7;
+    font-size: 16px;
+    border-top: 3px solid #C0B6B6;
+    font-family: "Lora", serif;
+}
+
+.row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+    height: 20px;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 2em; */
+    /* min-height: 5em; */
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+h5{
+    font-size: 9px;
+    padding-top: 0px;
+}
+
+p{
+    font-size: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 850px) {
+    .row.primary {
+        grid-template-columns: 1fr;
+    }
+
+}

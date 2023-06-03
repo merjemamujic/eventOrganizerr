@@ -1,0 +1,81 @@
+/* Home Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,500;1,300&family=Lora:wght@500&display=swap');
+
+* {
+    font-family: 'Lora', serif;
+    /* font-size: 1.6rem; */
+}
+
+.bg-light {
+    /* background-color: transparent !important; */
+    background-color: rgb(46, 49, 49) !important;
+    opacity: 0.5;
+    height: 120px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.navbar-nav>li {
+    padding: 0 10px;
+    border-right: 1px #C0B6B6 solid;
+}
+
+.navbar-nav>li:last-child {
+    border: none;
+}
+
+.navbar-nav a::before,
+.navbar-nav a::after {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+#link-active {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: aquamarine;
+    border-bottom: 2px solid aquamarine;
+    transition: .1s;
+
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: aquamarine;
+    border-bottom: 2px solid aquamarine;
+    transition: .1s;
+
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 3px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #ffff;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
