@@ -56,15 +56,20 @@ p {
     opacity: 0.7; */
 }
 
-.col .card h5 {
-    text-align: center;
+.col .card h5 a{
     font-family: 'Alex Brush', cursive;
     font-size: 40px;
     font-weight: bold;
     background-color: #e9e9d5;
     opacity: 0.7;
     /* border-radius: 5px; */
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
+
 
 .card {
     width: 300px;
@@ -77,6 +82,7 @@ p {
     background-size: cover;
     border-radius: 0px;
     transition: .5s ease;
+    text-align: center;
 }
 
 .col .card {
